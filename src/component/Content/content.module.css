@@ -1,0 +1,13 @@
+.Content {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 5% auto; /* Отцентрировано и добавлен отступ сверху */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.List {
+  list-style-type: none;
+  padding: 0;
+}

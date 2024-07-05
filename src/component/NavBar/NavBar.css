@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

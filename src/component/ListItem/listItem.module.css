@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.checked .label {
+  text-decoration-line: line-through;
+  color: gray;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.label {
+  flex-grow: 1;
+}
+
+.button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #c82333;
+}

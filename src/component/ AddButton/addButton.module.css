@@ -1,0 +1,26 @@
+.AddForm {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.addButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #218838;
+}

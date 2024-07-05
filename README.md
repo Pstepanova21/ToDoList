@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Проект "ToDo List" 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Проект "ToDo List" представляет собой веб-приложение для управления списком задач. Пользователи могут добавлять новые задачи, отмечать их выполнение с помощью чекбоксов и удалять задачи, которые уже выполнены или больше не нужны.
 
-## Available Scripts
+## Функциональность
 
-In the project directory, you can run:
+- **Список задач**: Главная страница приложения отображает список задач, сохраняемых в локальном хранилище браузера. Каждая задача представлена в виде отдельного элемента списка.
+  
+- **Добавление задач**: Пользователи могут добавлять новые задачи с помощью кнопки "Добавить задачу". Новая задача появляется в конце списка задач.
+  
+- **Удаление задач**: Каждая задача имеет кнопку "Удалить", при нажатии на которую задача удаляется из списка.
 
-### `npm start`
+## Используемые технологии
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: JavaScript библиотека для создания пользовательских интерфейсов.
+- **React Router**: Библиотека для навигации внутри одностраничных приложений.
+- **CSS Modules**: Локальные CSS модули для стилизации компонентов с изоляцией стилей.
+- **localStorage**: Встроенное хранилище браузера для сохранения данных о задачах между сессиями.
+- **JavaScript (ES6+)**: Современный стандарт JavaScript для написания кода.
+- **HTML**: Язык разметки для создания структуры веб-страницы.
+- **React Hooks (useState, useEffect)**: Хуки React для управления состоянием компонентов и выполнения побочных эффектов.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Установка и запуск
 
-### `npm test`
+Чтобы установить и запустить проект локально, выполните следующие шаги:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Убедитесь, что у вас установлен Node.js (версия 12 или выше) и npm.
+2. Склонируйте репозиторий с проектом: `git clone https://github.com/Pstepanova21/ToDoList.git`
+3. Перейдите в корневую директорию проекта: `cd todo-list`
+4. Установите зависимости: `npm install`
+5. Запустите проект: `npm start`
 
-### `npm run build`
+После выполнения этих шагов приложение будет доступно по адресу `http://localhost:3000`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Дополнительная информация
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Проект разработан в учебных целях как демонстрация использования React для создания интерфейса пользователя и управления состоянием приложения. Планируется дальнейшее развитие проекта с добавлением новых функций и улучшением пользовательского опыта.
